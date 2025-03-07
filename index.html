@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>
-      Moja guza
-   </title>
+   <title>Moja guza</title>
+   <link rel="stylesheet" href="index.css">
+   <style>
+      .glow-button {
+         cursor: help;
+         color: white;
+         background: rgb(68, 35, 255);
+         border-radius: 10px;
+         transition: all 0.4s ease-in-out;
+      }
+
+      .glow-button:hover {
+         box-shadow: 0px 0px 18px 8px rgb(188, 177, 255);
+      }
+   </style>
+
 
 </head>
 
@@ -30,8 +42,8 @@
    <br>
    <br>
    <br>
-   <a href="/matheosite/secondary/hidden.html">
-      <button style="background-color: transparent; color: transparent; border-color: transparent; cursor:pointer;">
+   <a href="secondary/hidden.html">
+      <button style="background-color: transparent; color: transparent; border-color: transparent; cursor:none;">
          Svaka čast :)
       </button>
    </a>
@@ -39,10 +51,15 @@
    <br>
    <br>
 
-   <a href="/matheosite/secondary/dont_pre.html" target="_blank" title="your warranty will expire by pressing this button">
+   <a href="secondary/dont_pre.html" target="_blank" title="your warranty will expire by pressing this button">
       <button style="background-color: rgb(81, 81, 81); color: rgb(0, 255, 0);border-radius: 5px; cursor:pointer;">
          virus
       </button>
+   </a>
+   <br>
+   <br>
+   <a href="secondary/vecer.html" title="Pospan sam">
+      <button class="glow-button">ZzZz...</button>
    </a>
 
 
